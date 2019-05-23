@@ -1,19 +1,24 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
     <title>Silicn的个人博客</title>
 </head>
 <body>
 <p>
     欢迎来到我的博客
 </p>
-<code>
-    if (_displayLink) {
-    [_displayLink removeFromRunLoop:[NSRunLoop currentRunLoop] forMode:NSRunLoopCommonModes];
-    }
-    [self.textLabel mas_updateConstraints:^(MASConstraintMaker *make) {
-    make.left.equalTo(@(0));
-    }];
-</code>
+<pre>
+    <code>
+        if (_displayLink) {
+        [_displayLink removeFromRunLoop:[NSRunLoop currentRunLoop] forMode:NSRunLoopCommonModes];
+        }
+        [self.textLabel mas_updateConstraints:^(MASConstraintMaker *make) {
+        make.left.equalTo(@(0));
+        }];
+    </code>
+</pre>
+
 
 </body>
 </html>
